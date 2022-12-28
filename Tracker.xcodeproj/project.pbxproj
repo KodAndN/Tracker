@@ -9,25 +9,37 @@
 /* Begin PBXBuildFile section */
 		7219EE81295B21D10028FECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE80295B21D10028FECC /* AppDelegate.swift */; };
 		7219EE83295B21D10028FECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE82295B21D10028FECC /* SceneDelegate.swift */; };
-		7219EE85295B21D10028FECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE84295B21D10028FECC /* ViewController.swift */; };
+		7219EE85295B21D10028FECC /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE84295B21D10028FECC /* OverviewController.swift */; };
 		7219EE8A295B21D40028FECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7219EE89295B21D40028FECC /* Assets.xcassets */; };
 		7219EE8D295B21D40028FECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7219EE8B295B21D40028FECC /* LaunchScreen.storyboard */; };
 		7219EE97295B29140028FECC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE96295B29140028FECC /* TabBarController.swift */; };
 		7219EE9A295C1E240028FECC /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE99295C1E240028FECC /* UIColor + ext.swift */; };
 		7219EE9D295C2D920028FECC /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE9C295C2D920028FECC /* Resouces.swift */; };
+		7219EE9F295C55850028FECC /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE9E295C55850028FECC /* NavBarController.swift */; };
+		7219EEA2295C594B0028FECC /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEA1295C594B0028FECC /* BaseController.swift */; };
+		7219EEA4295C86B30028FECC /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEA3295C86B30028FECC /* UIView + ext.swift */; };
+		7219EEAB295C99AE0028FECC /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEAA295C99AE0028FECC /* SessionController.swift */; };
+		7219EEAD295C99E60028FECC /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEAC295C99E60028FECC /* SettingController.swift */; };
+		7219EEAF295C9A0A0028FECC /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEAE295C9A0A0028FECC /* ProgressController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7219EE7D295B21D10028FECC /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7219EE80295B21D10028FECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7219EE82295B21D10028FECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7219EE84295B21D10028FECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7219EE84295B21D10028FECC /* OverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewController.swift; sourceTree = "<group>"; };
 		7219EE89295B21D40028FECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7219EE8C295B21D40028FECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7219EE8E295B21D40028FECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7219EE96295B29140028FECC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		7219EE99295C1E240028FECC /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		7219EE9C295C2D920028FECC /* Resouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
+		7219EE9E295C55850028FECC /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		7219EEA1295C594B0028FECC /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		7219EEA3295C86B30028FECC /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
+		7219EEAA295C99AE0028FECC /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
+		7219EEAC295C99E60028FECC /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		7219EEAE295C9A0A0028FECC /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +74,7 @@
 			children = (
 				7219EE98295C1DD20028FECC /* Helpers */,
 				7219EE94295B22A30028FECC /* Application */,
-				7219EE84295B21D10028FECC /* ViewController.swift */,
-				7219EE96295B29140028FECC /* TabBarController.swift */,
+				7219EEA0295C59170028FECC /* Controllers */,
 				7219EE95295B23060028FECC /* SupportingFiles */,
 			);
 			path = Tracker;
@@ -101,8 +112,63 @@
 			isa = PBXGroup;
 			children = (
 				7219EE99295C1E240028FECC /* UIColor + ext.swift */,
+				7219EEA3295C86B30028FECC /* UIView + ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7219EEA0295C59170028FECC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7219EEA9295C89DB0028FECC /* Progress */,
+				7219EEA8295C89CC0028FECC /* Settings */,
+				7219EEA7295C89B80028FECC /* Session */,
+				7219EEA6295C899A0028FECC /* Overview */,
+				7219EEA5295C895F0028FECC /* Base */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7219EEA5295C895F0028FECC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7219EE96295B29140028FECC /* TabBarController.swift */,
+				7219EE9E295C55850028FECC /* NavBarController.swift */,
+				7219EEA1295C594B0028FECC /* BaseController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7219EEA6295C899A0028FECC /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				7219EE84295B21D10028FECC /* OverviewController.swift */,
+			);
+			name = Overview;
+			sourceTree = "<group>";
+		};
+		7219EEA7295C89B80028FECC /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				7219EEAA295C99AE0028FECC /* SessionController.swift */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+		7219EEA8295C89CC0028FECC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7219EEAC295C99E60028FECC /* SettingController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		7219EEA9295C89DB0028FECC /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				7219EEAE295C9A0A0028FECC /* ProgressController.swift */,
+			);
+			name = Progress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,11 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7219EE85295B21D10028FECC /* ViewController.swift in Sources */,
+				7219EE85295B21D10028FECC /* OverviewController.swift in Sources */,
+				7219EEA4295C86B30028FECC /* UIView + ext.swift in Sources */,
 				7219EE97295B29140028FECC /* TabBarController.swift in Sources */,
 				7219EE81295B21D10028FECC /* AppDelegate.swift in Sources */,
+				7219EEAB295C99AE0028FECC /* SessionController.swift in Sources */,
+				7219EE9F295C55850028FECC /* NavBarController.swift in Sources */,
 				7219EE9A295C1E240028FECC /* UIColor + ext.swift in Sources */,
 				7219EE9D295C2D920028FECC /* Resouces.swift in Sources */,
+				7219EEAF295C9A0A0028FECC /* ProgressController.swift in Sources */,
+				7219EEAD295C99E60028FECC /* SettingController.swift in Sources */,
+				7219EEA2295C594B0028FECC /* BaseController.swift in Sources */,
 				7219EE83295B21D10028FECC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
