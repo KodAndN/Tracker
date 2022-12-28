@@ -12,6 +12,9 @@
 		7219EE85295B21D10028FECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE84295B21D10028FECC /* ViewController.swift */; };
 		7219EE8A295B21D40028FECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7219EE89295B21D40028FECC /* Assets.xcassets */; };
 		7219EE8D295B21D40028FECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7219EE8B295B21D40028FECC /* LaunchScreen.storyboard */; };
+		7219EE97295B29140028FECC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE96295B29140028FECC /* TabBarController.swift */; };
+		7219EE9A295C1E240028FECC /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE99295C1E240028FECC /* UIColor + ext.swift */; };
+		7219EE9D295C2D920028FECC /* Resouces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EE9C295C2D920028FECC /* Resouces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		7219EE89295B21D40028FECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7219EE8C295B21D40028FECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7219EE8E295B21D40028FECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7219EE96295B29140028FECC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		7219EE99295C1E240028FECC /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
+		7219EE9C295C2D920028FECC /* Resouces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resouces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,10 @@
 		7219EE7F295B21D10028FECC /* Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				7219EE98295C1DD20028FECC /* Helpers */,
 				7219EE94295B22A30028FECC /* Application */,
 				7219EE84295B21D10028FECC /* ViewController.swift */,
+				7219EE96295B29140028FECC /* TabBarController.swift */,
 				7219EE95295B23060028FECC /* SupportingFiles */,
 			);
 			path = Tracker;
@@ -78,6 +86,23 @@
 				7219EE8E295B21D40028FECC /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7219EE98295C1DD20028FECC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7219EE9B295C1E3A0028FECC /* Extensions */,
+				7219EE9C295C2D920028FECC /* Resouces.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7219EE9B295C1E3A0028FECC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7219EE99295C1E240028FECC /* UIColor + ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7219EE85295B21D10028FECC /* ViewController.swift in Sources */,
+				7219EE97295B29140028FECC /* TabBarController.swift in Sources */,
 				7219EE81295B21D10028FECC /* AppDelegate.swift in Sources */,
+				7219EE9A295C1E240028FECC /* UIColor + ext.swift in Sources */,
+				7219EE9D295C2D920028FECC /* Resouces.swift in Sources */,
 				7219EE83295B21D10028FECC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
