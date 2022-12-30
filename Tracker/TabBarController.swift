@@ -45,10 +45,10 @@ final class TabBarController: UITabBarController {
         let progressNavigation = NavBarController(rootViewController: progressController)
         let settingsNavigation = NavBarController(rootViewController: settingsController)
         
-        overviewNavigation.tabBarItem = UITabBarItem(title: Resources.String.TabBar.overview, image: Resources.Images.TabBar.overview, tag: Tabs.overview.rawValue)
-        sessioNavigation.tabBarItem = UITabBarItem(title: Resources.String.TabBar.session, image: Resources.Images.TabBar.session, tag: Tabs.session.rawValue)
-        progressNavigation.tabBarItem = UITabBarItem(title: Resources.String.TabBar.progress, image: Resources.Images.TabBar.progress, tag: Tabs.progress.rawValue)
-        settingsNavigation.tabBarItem = UITabBarItem(title: Resources.String.TabBar.settings, image: Resources.Images.TabBar.settings, tag: Tabs.settings.rawValue)
+        overviewNavigation.tabBarItem = UITabBarItem(title: Resources.Strings.TabBar.overview, image: Resources.Images.TabBar.overview, tag: Tabs.overview.rawValue)
+        sessioNavigation.tabBarItem = UITabBarItem(title: Resources.Strings.TabBar.session, image: Resources.Images.TabBar.session, tag: Tabs.session.rawValue)
+        progressNavigation.tabBarItem = UITabBarItem(title: Resources.Strings.TabBar.progress, image: Resources.Images.TabBar.progress, tag: Tabs.progress.rawValue)
+        settingsNavigation.tabBarItem = UITabBarItem(title: Resources.Strings.TabBar.settings, image: Resources.Images.TabBar.settings, tag: Tabs.settings.rawValue)
         
         setViewControllers([
             overviewNavigation,

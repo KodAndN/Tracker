@@ -21,6 +21,7 @@
 		7219EEAB295C99AE0028FECC /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEAA295C99AE0028FECC /* SessionController.swift */; };
 		7219EEAD295C99E60028FECC /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEAC295C99E60028FECC /* SettingController.swift */; };
 		7219EEAF295C9A0A0028FECC /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEAE295C9A0A0028FECC /* ProgressController.swift */; };
+		7219EEB2295CA4450028FECC /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEB1295CA4450028FECC /* SecondaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		7219EEAA295C99AE0028FECC /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		7219EEAC295C99E60028FECC /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		7219EEAE295C9A0A0028FECC /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
+		7219EEB1295CA4450028FECC /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		7219EEA6295C899A0028FECC /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				7219EEB0295CA3FE0028FECC /* Views */,
 				7219EE84295B21D10028FECC /* OverviewController.swift */,
 			);
 			name = Overview;
@@ -169,6 +172,14 @@
 				7219EEAE295C9A0A0028FECC /* ProgressController.swift */,
 			);
 			name = Progress;
+			sourceTree = "<group>";
+		};
+		7219EEB0295CA3FE0028FECC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7219EEB1295CA4450028FECC /* SecondaryButton.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +258,7 @@
 				7219EE81295B21D10028FECC /* AppDelegate.swift in Sources */,
 				7219EEAB295C99AE0028FECC /* SessionController.swift in Sources */,
 				7219EE9F295C55850028FECC /* NavBarController.swift in Sources */,
+				7219EEB2295CA4450028FECC /* SecondaryButton.swift in Sources */,
 				7219EE9A295C1E240028FECC /* UIColor + ext.swift in Sources */,
 				7219EE9D295C2D920028FECC /* Resouces.swift in Sources */,
 				7219EEAF295C9A0A0028FECC /* ProgressController.swift in Sources */,
