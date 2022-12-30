@@ -62,6 +62,7 @@ enum Resources {
         
         enum Common {
             static var allWorcoutsButton = UIImage(named: "down_arrow")
+            static var add = UIImage(named: "add_button")
         }
     }
     enum Fonts {
