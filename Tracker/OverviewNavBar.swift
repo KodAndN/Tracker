@@ -18,7 +18,7 @@ final class OverviewNavBar: BaseView {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        addBottomBorder(with: Resources.Colors.separator, height: 1)
+        addBottomBorder(with: R.Colors.separator, height: 1)
     }
     
     func addAllWorkoutsAction(_ action: Selector, with target: Any?) {
@@ -32,8 +32,8 @@ final class OverviewNavBar: BaseView {
 
 extension OverviewNavBar {
     
-    override func addViews() {
-        super.addViews()
+    override func setupViews() {
+        super.setupViews()
         
         addSubview(titleLabel)
         addSubview(allWorrkoutButton)
@@ -42,8 +42,8 @@ extension OverviewNavBar {
         
     }
     
-    override func layoutViews() {
-        super.layoutViews()
+    override func constaintViews() {
+        super.constaintViews()
         
         NSLayoutConstraint.activate([
             addButton.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 8),
@@ -69,20 +69,20 @@ extension OverviewNavBar {
         ])
     }
     
-    override func configure() {
-        super.configure()
+    override func configureAppearance() {
+        super.configureAppearance()
         backgroundColor = .white
         
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        titleLabel.text = Resources.Strings.NavBar.overview
-        titleLabel.textColor = Resources.Colors.titleGray
-        titleLabel.font = Resources.Fonts.helvelticaRegular(with: 22)
+        titleLabel.text = R.Strings.NavBar.overview
+        titleLabel.textColor = R.Colors.titleGray
+        titleLabel.font = R.Fonts.helvelticaRegular(with: 22)
         
         allWorrkoutButton.translatesAutoresizingMaskIntoConstraints = false
-        allWorrkoutButton.setTitle(Resources.Strings.Overview.allWorcoutsButton)
+        allWorrkoutButton.setTitle(R.Strings.Overview.allWorcoutsButton)
         
         addButton.translatesAutoresizingMaskIntoConstraints = false
-        addButton.setImage(Resources.Images.Common.add, for: .normal)
+        addButton.setImage(R.Images.Common.add, for: .normal)
         weekView.translatesAutoresizingMaskIntoConstraints = false
         
     }

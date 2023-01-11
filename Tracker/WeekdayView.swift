@@ -15,18 +15,25 @@ extension WeekView {
         private let stackView = UIStackView()
         
         func configure(with index: Int, and name: String) {
-            
             let startOfWeek = Date().startOfWeek
+            let currenrDay = startOfWeek.agoForward(to: index)
+            let day = Calendar.current.component(.day, from: currenrDay)
+            let isTooday = currenrDay.stripTime() == Date().stripTime()
             
-            nameLabel.text = name
-            dateLabel.text = "\(index)"
+            backgroundColor = isTooday ? R.Colors.active : R.Colors.background
+            
+            nameLabel.text = name.uppercased()
+            nameLabel.textColor = isTooday ? .white : R.Colors.inactive
+            
+            dateLabel.text = "\(day)"
+            dateLabel.textColor = isTooday ? .white : R.Colors.inactive
         }
     }
 }
 
 extension WeekView.WeekdayView {
-    override func addViews() {
-        super.addViews()
+    override func setupViews() {
+        super.setupViews()
         
         addView(stackView)  
         
@@ -34,8 +41,8 @@ extension WeekView.WeekdayView {
         stackView.addArrangedSubview(dateLabel)
     }
     
-    override func layoutViews() {
-        super.layoutViews()
+    override func constaintViews() {
+        super.constaintViews()
         
         NSLayoutConstraint.activate([
             stackView.centerXAnchor.constraint(equalTo: centerXAnchor),
@@ -44,18 +51,18 @@ extension WeekView.WeekdayView {
         
     }
     
-    override func configure() {
-        super.configure()
+    override func configureAppearance() {
+        super.configureAppearance()
         
         backgroundColor = .red
         
         layer.cornerRadius = 5
         layer.masksToBounds = true
         
-        nameLabel.font = Resources.Fonts.helvelticaRegular(with: 9)
+        nameLabel.font = R.Fonts.helvelticaRegular(with: 9)
         nameLabel.textAlignment = .center
         
-        dateLabel.font = Resources.Fonts.helvelticaRegular(with: 15)
+        dateLabel.font = R.Fonts.helvelticaRegular(with: 15)
         dateLabel.textAlignment = .center
         
         stackView.spacing = 3

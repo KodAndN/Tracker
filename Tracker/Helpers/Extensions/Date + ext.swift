@@ -17,5 +17,15 @@ extension Date {
         guard let firsDay = calendar.date(from: component) else { return self }
         return calendar.date(byAdding: .day, value: 1, to: firsDay) ?? self
     }
+    
+    func agoForward(to days: Int) -> Date {
+        return calendar.date(byAdding: .day, value: days, to: self) ?? self
+    }
+    
+    func stripTime() -> Date {
+        let components = calendar.dateComponents([.year,
+                                                  .month, .day], from: self)
+        return calendar.date(from: components) ?? self
+    }
 }
 
