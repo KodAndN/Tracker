@@ -27,6 +27,7 @@
 		722CFD6B295EF4E200EC3E80 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CFD6A295EF4E200EC3E80 /* WeekView.swift */; };
 		722CFD6D295EFCF500EC3E80 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CFD6C295EFCF500EC3E80 /* WeekdayView.swift */; };
 		722CFD6F295F047000EC3E80 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CFD6E295F047000EC3E80 /* Date + ext.swift */; };
+		723F73A8296EE32A004DE84E /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F73A7296EE32A004DE84E /* BaseInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		722CFD6A295EF4E200EC3E80 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		722CFD6C295EFCF500EC3E80 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		722CFD6E295F047000EC3E80 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
+		723F73A7296EE32A004DE84E /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		7219EEA5295C895F0028FECC /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				723F73A6296EE307004DE84E /* Views */,
 				7219EE96295B29140028FECC /* TabBarController.swift */,
 				7219EE9E295C55850028FECC /* NavBarController.swift */,
 				7219EEA1295C594B0028FECC /* BaseController.swift */,
@@ -203,6 +206,14 @@
 				722CFD6C295EFCF500EC3E80 /* WeekdayView.swift */,
 			);
 			name = WeekView;
+			sourceTree = "<group>";
+		};
+		723F73A6296EE307004DE84E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				723F73A7296EE32A004DE84E /* BaseInfoView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 				7219EE81295B21D10028FECC /* AppDelegate.swift in Sources */,
 				7219EEAB295C99AE0028FECC /* SessionController.swift in Sources */,
 				7219EE9F295C55850028FECC /* NavBarController.swift in Sources */,
+				723F73A8296EE32A004DE84E /* BaseInfoView.swift in Sources */,
 				7219EEB2295CA4450028FECC /* SecondaryButton.swift in Sources */,
 				7219EE9A295C1E240028FECC /* UIColor + ext.swift in Sources */,
 				7219EE9D295C2D920028FECC /* Resouces.swift in Sources */,
