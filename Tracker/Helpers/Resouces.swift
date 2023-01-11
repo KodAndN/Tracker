@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum Resources {
+enum R {
     enum Colors {
         static var active = UIColor(hexString: "#437BFE")
         static var inactive = UIColor(hexString: "#929DA5")
@@ -18,13 +18,18 @@ enum Resources {
         
         static var titleGray = UIColor(hexString: "#545c77")
     }
+    
     enum Strings {
         enum TabBar {
-            static var overview = "Overview"
-            static var session = "Session"
-            static var progress = "Progress"
-            static var settings = "Settings"
+            static func title(for tab: Tabs) -> String {
+            switch tab {
+            case .overview: return "Overview"
+            case .session: return "Session"
+            case .progress: return "Progress"
+            case .settings: return "Settings"
+            }
         }
+    }
         
         enum NavBar {
             static var overview = "Today"
@@ -47,21 +52,24 @@ enum Resources {
             static var navBarRight = "Details"
         }
         
-        enum Setting {
-            
-        }
+        enum Setting {}
     }
     
     enum Images {
         enum TabBar {
-            static var overview = UIImage(named: "overview_tab")
-            static var session = UIImage(named: "session_tab")
-            static var progress = UIImage(named: "progress_tab")
-            static var settings = UIImage(named: "settings_tab")
+            static func icon(for tab: Tabs) -> UIImage? {
+                switch tab {
+                case .overview: return UIImage(named: "overview_tab")
+                case .session: return  UIImage(named: "session_tab")
+                case .progress: return  UIImage(named: "progress_tab")
+                case .settings: return  UIImage(named: "settings_tab")
+                }
+            }
         }
         
         enum Common {
             static var allWorcoutsButton = UIImage(named: "down_arrow")
+            static var add = UIImage(named: "add_button")
         }
     }
     enum Fonts {

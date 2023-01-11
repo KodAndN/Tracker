@@ -22,6 +22,11 @@
 		7219EEAD295C99E60028FECC /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEAC295C99E60028FECC /* SettingController.swift */; };
 		7219EEAF295C9A0A0028FECC /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEAE295C9A0A0028FECC /* ProgressController.swift */; };
 		7219EEB2295CA4450028FECC /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219EEB1295CA4450028FECC /* SecondaryButton.swift */; };
+		722CFD66295ED70100EC3E80 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CFD65295ED70100EC3E80 /* OverviewNavBar.swift */; };
+		722CFD68295ED75F00EC3E80 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CFD67295ED75F00EC3E80 /* BaseView.swift */; };
+		722CFD6B295EF4E200EC3E80 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CFD6A295EF4E200EC3E80 /* WeekView.swift */; };
+		722CFD6D295EFCF500EC3E80 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CFD6C295EFCF500EC3E80 /* WeekdayView.swift */; };
+		722CFD6F295F047000EC3E80 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722CFD6E295F047000EC3E80 /* Date + ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,11 @@
 		7219EEAC295C99E60028FECC /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		7219EEAE295C9A0A0028FECC /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		7219EEB1295CA4450028FECC /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		722CFD65295ED70100EC3E80 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		722CFD67295ED75F00EC3E80 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		722CFD6A295EF4E200EC3E80 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		722CFD6C295EFCF500EC3E80 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		722CFD6E295F047000EC3E80 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,7 @@
 			children = (
 				7219EE99295C1E240028FECC /* UIColor + ext.swift */,
 				7219EEA3295C86B30028FECC /* UIView + ext.swift */,
+				722CFD6E295F047000EC3E80 /* Date + ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -137,6 +148,7 @@
 				7219EE96295B29140028FECC /* TabBarController.swift */,
 				7219EE9E295C55850028FECC /* NavBarController.swift */,
 				7219EEA1295C594B0028FECC /* BaseController.swift */,
+				722CFD67295ED75F00EC3E80 /* BaseView.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -177,9 +189,20 @@
 		7219EEB0295CA3FE0028FECC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				722CFD69295EF4C000EC3E80 /* WeekView */,
 				7219EEB1295CA4450028FECC /* SecondaryButton.swift */,
+				722CFD65295ED70100EC3E80 /* OverviewNavBar.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		722CFD69295EF4C000EC3E80 /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				722CFD6A295EF4E200EC3E80 /* WeekView.swift */,
+				722CFD6C295EFCF500EC3E80 /* WeekdayView.swift */,
+			);
+			name = WeekView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722CFD6B295EF4E200EC3E80 /* WeekView.swift in Sources */,
+				722CFD6F295F047000EC3E80 /* Date + ext.swift in Sources */,
 				7219EE85295B21D10028FECC /* OverviewController.swift in Sources */,
 				7219EEA4295C86B30028FECC /* UIView + ext.swift in Sources */,
+				722CFD66295ED70100EC3E80 /* OverviewNavBar.swift in Sources */,
 				7219EE97295B29140028FECC /* TabBarController.swift in Sources */,
 				7219EE81295B21D10028FECC /* AppDelegate.swift in Sources */,
 				7219EEAB295C99AE0028FECC /* SessionController.swift in Sources */,
@@ -263,6 +289,8 @@
 				7219EE9D295C2D920028FECC /* Resouces.swift in Sources */,
 				7219EEAF295C9A0A0028FECC /* ProgressController.swift in Sources */,
 				7219EEAD295C99E60028FECC /* SettingController.swift in Sources */,
+				722CFD68295ED75F00EC3E80 /* BaseView.swift in Sources */,
+				722CFD6D295EFCF500EC3E80 /* WeekdayView.swift in Sources */,
 				7219EEA2295C594B0028FECC /* BaseController.swift in Sources */,
 				7219EE83295B21D10028FECC /* SceneDelegate.swift in Sources */,
 			);
