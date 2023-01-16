@@ -135,10 +135,11 @@
 		7219EEA0295C59170028FECC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				728518212975A111003CD568 /* Navigation */,
+				7219EEA6295C899A0028FECC /* Overview */,
+				7219EEA7295C89B80028FECC /* Session */,
 				7219EEA9295C89DB0028FECC /* Progress */,
 				7219EEA8295C89CC0028FECC /* Settings */,
-				7219EEA7295C89B80028FECC /* Session */,
-				7219EEA6295C899A0028FECC /* Overview */,
 				7219EEA5295C895F0028FECC /* Base */,
 			);
 			name = Controllers;
@@ -148,10 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				723F73A6296EE307004DE84E /* Views */,
-				7219EE96295B29140028FECC /* TabBarController.swift */,
-				7219EE9E295C55850028FECC /* NavBarController.swift */,
 				7219EEA1295C594B0028FECC /* BaseController.swift */,
-				722CFD67295ED75F00EC3E80 /* BaseView.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -211,9 +209,19 @@
 		723F73A6296EE307004DE84E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				722CFD67295ED75F00EC3E80 /* BaseView.swift */,
 				723F73A7296EE32A004DE84E /* BaseInfoView.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		728518212975A111003CD568 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				7219EE96295B29140028FECC /* TabBarController.swift */,
+				7219EE9E295C55850028FECC /* NavBarController.swift */,
+			);
+			name = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -56,26 +56,3 @@ final class TabBarController: UITabBarController {
     }
 }
         
-//        let overvieewController = OverviewController()
-//        let sessionController = SessionController()
-//        let progressController = ProgressController()
-//        let settingsController = SettingController()
-//
-//        let overviewNavigation = NavBarController(rootViewController: overvieewController)
-//        let sessioNavigation = NavBarController(rootViewController: sessionController)
-//        let progressNavigation = NavBarController(rootViewController: progressController)
-//        let settingsNavigation = NavBarController(rootViewController: settingsController)
-//
-//        overviewNavigation.tabBarItem = UITabBarItem(title: R.Strings.TabBar.overview, image: R.Images.TabBar.overview, tag: Tabs.overview.rawValue)
-//        sessioNavigation.tabBarItem = UITabBarItem(title: R.Strings.TabBar.session, image: R.Images.TabBar.session, tag: Tabs.session.rawValue)
-//        progressNavigation.tabBarItem = UITabBarItem(title: R.Strings.TabBar.progress, image: R.Images.TabBar.progress, tag: Tabs.progress.rawValue)
-//        settingsNavigation.tabBarItem = UITabBarItem(title: R.Strings.TabBar.settings, image: R.Images.TabBar.settings, tag: Tabs.settings.rawValue)
-//
-//        setViewControllers([
-//            overviewNavigation,
-//            sessioNavigation,
-//            progressNavigation,
-//            settingsNavigation
-//        ], animated: false)
-//    }
-//}
